@@ -1,0 +1,77 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.headerDiv {
+  padding-left: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #adbcff;
+}
+
+h1 {
+  color: #00167a;
+}
+
+h3 {
+  color: rgb(98, 44, 0);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+li {
+  margin-left: 45px;
+  margin-right: 30px;
+  list-style: none;
+}
+
+hr {
+  background-color: rgb(255, 189, 135);
+  height: 10px;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.InformationDiv {
+  background-color: rgb(255, 242, 232);
+  margin: 0;
+  padding: 0;
+}
+
+.ContactDiv {
+  background-color: #ffcece;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 0px;
+  row-gap: 0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50px, -100px);
+  border: 5px solid #e3e3e3;
+}
+
+.material-symbols-outlined {
+  margin-right: 20px;
+  transform: translateY(22px);
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
