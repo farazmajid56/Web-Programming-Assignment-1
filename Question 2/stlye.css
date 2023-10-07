@@ -128,11 +128,11 @@ a:hover {
     left: 0;
   }
 
-  .flexContainer {
+  .mainContainer {
     flex-direction: column-reverse !important ;
   }
 
-  .hero-image {
+  .landing-image {
     margin-top: 8%;
   }
 
@@ -146,7 +146,7 @@ a:hover {
     font-size: 18px;
   }
 
-  .hero-text {
+  .landing-text {
     font-size: 250% !important;
   }
 
@@ -170,11 +170,11 @@ section {
   height: 900px;
 }
 
-#hero-image {
+#landing-image {
   max-width: 100%;
 }
 
-.flexContainer {
+.mainContainer {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -246,7 +246,7 @@ form.example::after {
   font-size: 1.5rem;
 }
 
-.hero-text {
+.landing-text {
   font-family: "Nunito", "sans-serif";
   font-size: 4.3rem;
   color: darkorange;
